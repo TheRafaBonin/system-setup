@@ -10,21 +10,25 @@
   programs.neovim = {
     enable = true;
     plugins = with pkgs.vimPlugins; [
-      telescope-nvim
-      undotree
-      trouble-nvim 
-      nvim-treesitter.withAllGrammars
-      nvim-tree-lua
-      nvim-web-devicons
-      lsp-zero-nvim
-      mason-nvim
-      mason-lspconfig-nvim
-      vim-fugitive
-      nvim-cmp
-      cmp-nvim-lsp
-      rose-pine
-      copilot-lua
-      refactoring-nvim
+      # File managing
+          telescope-nvim
+          nvim-tree-lua
+          nvim-web-devicons
+      # Editing
+          undotree
+          refactoring-nvim
+      # Language and AutoComplete
+          mason-lspconfig-nvim
+          lsp-zero-nvim
+          cmp-nvim-lsp
+          copilot-lua
+          mason-nvim
+          nvim-cmp
+      # Others
+          nvim-treesitter.withAllGrammars
+          trouble-nvim 
+          vim-fugitive
+          rose-pine
     ];
   };
 }
