@@ -15,5 +15,6 @@
 
     # Languages
     pkgs.go
+    pkgs.rustup
   ];
 }

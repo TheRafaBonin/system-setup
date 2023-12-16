@@ -17,13 +17,18 @@
       # Editing
           undotree
           refactoring-nvim
-      # Language and AutoComplete
+      # LSP
           mason-lspconfig-nvim
+          nvim-lspconfig
           lsp-zero-nvim
-          cmp-nvim-lsp
           copilot-lua
           mason-nvim
+          luasnip
+      # Autocomplete
           nvim-cmp
+          cmp-nvim-lsp
+          cmp-buffer
+          cmp-cmdline 
       # Others
           nvim-treesitter.withAllGrammars
           trouble-nvim 

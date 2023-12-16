@@ -6,6 +6,7 @@
     # Basic sofware
     vim
     git
+    gcc
     wget
     tmux
     lshw
