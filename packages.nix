@@ -13,6 +13,7 @@
     htop
     killall
     pciutils
+    blesh
     
     # Clipbord manager
     wl-clipboard
