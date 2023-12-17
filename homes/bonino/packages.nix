@@ -14,7 +14,11 @@
     pkgs.vlc
 
     # Languages
-    pkgs.go
+    pkgs.nodejs
     pkgs.rustup
+    pkgs.go
+
+    # Utils
+    pkgs.tldr
   ];
 }

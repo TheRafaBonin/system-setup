@@ -21,7 +21,7 @@
           mason-lspconfig-nvim
           nvim-lspconfig
           lsp-zero-nvim
-          copilot-lua
+          copilot-vim
           mason-nvim
           luasnip
       # Autocomplete
